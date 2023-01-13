@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/a5b5422d7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="header">
+        <div class="header-text">Weather App</div>
+      </div>
+      <div class="main-content">
+        <div class="form-container">
+          <form action="" class="form">
+            <div class="search-container">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                class="search"
+                placeholder="Enter a location"
+              />
+              <span class="error-span"></span>
+            </div>
+            <button type="submit" class="sButton">Search</button>
+          </form>
+          <div class="loading"></div>
+        </div>
+        <div class="displaydiv">
+          <div class="name"></div>
+          <div class="temp-button-container hide">
+            <button class="fButton">°F</button>
+            <button class="cButton">°C</button>
+          </div>
+          <div class="temp"></div>
+          <div class="feels"></div>
+          <div class="condition"></div>
+          <div class="conditionEmoji"></div>
+          <div class="humidity"></div>
+          <div class="wind"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a
+        class="github-link"
+        target="_blank"
+        href="https://github.com/abstractdev"
+        ><img src="./GitHub-Mark-32px.png" />abstractdev</a
+      >
+    </footer>
+    <script src="weatherapp.js" type="module"></script>
+  </body>
+</html>
